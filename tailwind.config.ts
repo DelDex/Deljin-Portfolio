@@ -6,10 +6,8 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/slices/**/*.{js,ts,jsx,tsx,mdx}",
-
   ],
-  theme: {
-  },
-  plugins: [require('@tailwindcss/typography'),],
+  theme: {},
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;
